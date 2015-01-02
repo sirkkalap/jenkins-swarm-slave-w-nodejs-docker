@@ -20,5 +20,5 @@ RUN npm install -g npm
 RUN npm install -g bower
 
 # Grunt
-RUN npm install -g bower
+RUN npm install -g grunt-cli
 

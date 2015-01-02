@@ -9,6 +9,9 @@ RUN curl -sL https://deb.nodesource.com/setup | bash -
 RUN apt-get update
 RUN apt-get -y install nodejs build-essential
 
+# Update NPM
+RUN npm install -g npm
+
 # Bower
 RUN npm install -g bower
 

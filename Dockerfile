@@ -4,6 +4,10 @@ MAINTAINER Petri Sirkkala <sirpete@iki.fi>
 
 USER root
 
+# Time zone
+RUN echo "Europe/Helsinki" > /etc/timezone \
+ && dpkg-reconfigure --frontend=noninteractive tzdata
+
 RUN apt-get update
 
 # Install git (just for fun :)

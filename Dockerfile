@@ -1,4 +1,4 @@
-FROM csanchez/jenkins-swarm-slave
+FROM sirkkalap/jenkins-swarm-slave
 
 MAINTAINER Petri Sirkkala <sirpete@iki.fi>
 
